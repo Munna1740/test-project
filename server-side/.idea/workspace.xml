@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fb0845e-2616-4e8d-9ecc-087a34b71552" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../client-side(ReactJS)/interview-question" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side(ReactJS)/interview-question" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/Interview_Preparation_System/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/Interview_Preparation_System/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/jobpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/jobpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/questions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/user/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="b912883a-cc4f-4e1f-8b93-45ff382f762d" />
+  <component name="ProjectId" id="1h3JbVquhMTFoz9Y5mp34u3Zel2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Final-Project\server-side\Interview_Preparation_System\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Final-Project\server-side\Interview_Preparation_System\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="server-side" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Interview_Preparation_System.settings" />
+      </envs>
+      <option name="SDK_HOME" value="I:\Final-Project\server-side\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fb0845e-2616-4e8d-9ecc-087a34b71552" name="Default Changelist" comment="" />
+      <created>1599233913484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599233913484</updated>
+      <workItem from="1599233916220" duration="2753000" />
+      <workItem from="1599318185522" duration="10743000" />
+      <workItem from="1599398050197" duration="17141000" />
+      <workItem from="1599490028303" duration="1146000" />
+      <workItem from="1599495476423" duration="2501000" />
+      <workItem from="1599624317046" duration="4093000" />
+      <workItem from="1599640869898" duration="5878000" />
+      <workItem from="1599655020917" duration="363000" />
+      <workItem from="1599655534825" duration="43000" />
+      <workItem from="1599655620361" duration="1171000" />
+      <workItem from="1599657674505" duration="10383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="19" key="#Unnamed" timestamp="1599655339142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="19" key="#Unnamed/0.0.1536.824@0.0.1536.824" timestamp="1599655339142" />
+    <state x="170" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599655374712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="170" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599655374712" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599415232661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599415232661" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599656419485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599656419485" />
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1599668546877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599668546877" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1599668546877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599668546877" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1599668546877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599668546877" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1599668546877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599668546877" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1599655572380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599655572380" />
+    <state x="418" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599320562000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1599320562000" />
+  </component>
+</project>
