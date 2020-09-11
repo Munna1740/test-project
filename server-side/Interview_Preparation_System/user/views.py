@@ -15,7 +15,7 @@ from pdfminer.pdfparser import PDFParser
 def landingPage(request):
     return render(request, 'index.html')
 
-def profile(request):
+def home(request):
     return render(request, 'home.html')
 
 
