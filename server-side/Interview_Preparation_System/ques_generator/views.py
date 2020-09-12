@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.shortcuts import render
 from .models import *
@@ -5,6 +6,7 @@ from django.apps import apps
 
 
 # Create your views here.
+@login_required
 def index(request):
     user_info_model = apps.get_model('user', 'UserInfo')
     user_info = user_info_model.objects.get(user=request.user)

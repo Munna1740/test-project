@@ -1,3 +1,5 @@
+import os
+
 from django.shortcuts import render, redirect
 
 from .models import UserResume
@@ -36,7 +38,7 @@ def upload_resume(request):
 
             print('The filtered skills are:')
             skillset = ""
-            for skills in filteredSkills:
+            for skills in wordList:
                 skillset += skills + ", "
                 print(skills)
             print(skillset)
@@ -44,6 +46,7 @@ def upload_resume(request):
             userinfo.save()
         else:
             resume = UserResume.objects.get(user=request.user)
+            os.remove(resume.resume.path)
             resume.resume = file
             resume.save()
 
