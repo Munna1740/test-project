@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb0845e-2616-4e8d-9ecc-087a34b71552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../client-side(ReactJS)/interview-question" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side(ReactJS)/interview-question" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/Interview_Preparation_System/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/Interview_Preparation_System/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/job_post/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/job_post/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/job_post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/job_post/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/jobpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/jobpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/questions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview_Preparation_System/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Preparation_System/user/views.py" afterDir="false" />
     </list>
@@ -103,6 +103,12 @@
       <workItem from="1599655534825" duration="43000" />
       <workItem from="1599655620361" duration="1171000" />
       <workItem from="1599657674505" duration="10383000" />
+      <workItem from="1600173251168" duration="2782000" />
+      <workItem from="1600354622154" duration="2673000" />
+      <workItem from="1600360401960" duration="1530000" />
+      <workItem from="1600363244762" duration="32000" />
+      <workItem from="1600363449040" duration="115000" />
+      <workItem from="1600363711750" duration="72000" />
     </task>
     <servers />
   </component>
@@ -122,10 +128,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599415232661" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599656419485">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600363274607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599656419485" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600363274607" />
     <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1599668546877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

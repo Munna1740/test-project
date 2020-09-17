@@ -46,7 +46,10 @@ def upload_resume(request):
             userinfo.save()
         else:
             resume = UserResume.objects.get(user=request.user)
-            os.remove(resume.resume.path)
+            try:
+                os.remove(resume.resume.path)
+            except:
+                print("CV not found")
             resume.resume = file
             resume.save()
 
@@ -109,7 +112,7 @@ def split_to_title_and_pagenum(table_of_contents_entry):
     return title, pagenum
 
 
-# function that filters vowels
+# function that filters skills
 def filterWords(word):
     skills = ['Python', 'Django', 'CSS', 'React', 'HTML']
 
@@ -120,3 +123,15 @@ def filterWords(word):
 
 
 
+#user access control
+def login(request):
+    return render(request, 'login.html')
+
+def registration(request):
+    return render(request, 'registration.html')
+
+def about(request):
+    return render(request, 'about.html')
+
+def contact(request):
+    return render(request, 'contact.html')

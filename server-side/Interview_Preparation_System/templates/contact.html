@@ -1,5 +1,7 @@
 {% extends 'nav.html' %}
-{% block contact %}
+{% load static %}
+{% block body %}
+
 <body>
     <div>
         <div>
@@ -14,14 +16,14 @@
         <h2 class="my-3">Studying BSc in Software Engineering at</h2>
         <h3>Daffodil International University</h3>
         <div class="mt-3">
-            <a to="/linkedin.com" class="btn-get-started">LinkedIn</a>
-            <a to="/github.com" class="btn-get-started nav-btn">Github</a>
+            <a href="https://www.linkedin.com/in/mdmostafamunna/" class="btn-get-started">LinkedIn</a>
+            <a href="https://github.com/Munna1740" class="btn-get-started nav-btn">Github</a>
 
         </div>
 
     </div>
     <div class="col-lg-6 order-1 order-lg-2 header-img">
-        <img src="../images/munna.jpeg" alt="home" class="img-fluid animated picture"/>
+        <img src="{% static 'images/munna.jpeg' %}" alt="home" class="img-fluid animated picture"/>
 
     </div>
     </div>

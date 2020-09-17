@@ -3,25 +3,63 @@
 {% block body %}
 
 <body>
+  <div>
     <div class="question-container">
     <div class="h1-question">
         <h2>Based on your skills Suitable job for you</h2>
     </div>
+
 <div>
-    <div class="card text-center">
-        <div class="card-header">
-          IT/Software
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Jr. Software Engineer</h5>
-          <p class="card-text">ABC company</p>
-          <a href="#" class="btn btn-primary">Apply Now</a>
-        </div>
-        <div class="card-footer text-muted">
-          2 days ago
-        </div>
+<div class="card text-center">
+      <div class="card-header">
+        IT/Software
       </div>
-</div> 
-</div>       
+      <div class="card-body">
+        <h5 class="card-title">Jr. Web Developer</h5>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Short Descriptions:
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Strong Computer Science fundamentals in data structures, algorithm design, and problem solving
+                Skilled in developing rich applications with HTML, CSS, Python, JavaScript
+                Proficiency in developing front-end software, with deep experience in one or more relevant front-end frameworks (React, Angular, etc.)
+                Strong customer focus, ownership, urgency and drive Preferred Qualifications
+                Familiarity with React and GraphQL
+                Proficiency in Python, Java, git, and building software on the AWS platform
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Job Requirement:
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Strong knowledge in OOP, Python, SQLite, JavaScript
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-primary">Apply Now</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+</div>
+</div>
+</div>
 </body>
 {% endblock %}
