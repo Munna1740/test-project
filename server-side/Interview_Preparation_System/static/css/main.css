@@ -137,3 +137,9 @@
 .question-container{
     margin-top: 50px;
 }
+
+.hello-msg{
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+}
