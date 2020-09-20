@@ -1,0 +1,55 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block body %}
+
+<body>
+    <div class="quiz">
+        <div class="container">
+            <h1 class="text-success mt-3">Evaluate yourself based on your skills</h1>
+                {% for i in quiz %}
+                <hr>
+            <div>
+                <form action="">
+                <label class="text-primary">{{i.id}} ) {{i.question}} ?</label>
+                <div class="radio">
+                    <label><input type="radio" class="rb" name={{i.id}} id="option1" value="{{i.option1}}"> {{i.option1}}</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" class="rb" name={{i.id}} id="option2" value="{{i.option2}}"> {{i.option2}}</label>
+                  </div>
+                  <div class="radio disabled">
+                    <label><input type="radio" class="rb" name={{i.id}} id="option2" value="{{i.option3}}"> {{i.option3}}</label>
+                  </div>
+                  <label id="corans" class="rb" style="display: none; color: green;" ><b> {{i.correctAns}}</b></label>
+            </div>
+        </form>
+            {% endfor %}
+
+            <input type="submit" class="btn btn-success" value="Submit" id="b11" onclick="getAnswer()">
+            <br>
+            <b id="UserAnswer"></b>
+
+
+        </div>
+    </div>
+    <script>
+        /*window.onload = initiall;
+        var saveAnsButton;
+        function initiall(){
+            saveAnsButton = document.getElementById('save_ans')
+            saveAnsButton.onclick = saveans;
+        }
+        function saveans(){
+            var ans =$("input:radio[name=name]:checked").val()
+            alert("Answer is submitted");
+
+            var req = new XMLHttpRequest();
+            var url = '/saveans?ans='+ans
+
+            req.open("GET",url,true)
+            req.send()
+        }*/
+    </script>
+    
+</body>
+{% endblock %}

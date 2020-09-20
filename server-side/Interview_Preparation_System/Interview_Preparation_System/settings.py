@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'home',
     'ques_generator',
     'job_post',
+    'quiz',
 ]
 
 MIDDLEWARE = [
